@@ -84,9 +84,9 @@ public class LoginActivity extends BaseActivity {
         else if(url.startsWith("http://") && url.endsWith(".git"))
             urlInput.setText(url.substring(0, nthOccurrence(url, '/', 2)));
         else if(url.startsWith("git@") && url.endsWith(".git"))
-            urlInput.setText("http://" + url.substring(4, url.indexOf(':')));
+            urlInput.setText("https://" + url.substring(4, url.indexOf(':')));
         else if(!url.startsWith("http://") && !url.startsWith("https://"))
-            urlInput.setText("http://" + urlInput.getText().toString());
+            urlInput.setText("https://" + urlInput.getText().toString());
 
 		if(isNormalLogin) {
 			connect(true);
