@@ -1,3 +1,8 @@
+***
+# Project has moved to GitLab to suppor their awesomeness. [Head on over!](https://gitlab.com/Commit451/GitLabAndroid)
+***
+
+
 # GitLab for Android
 [![Google Play](http://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=com.commit451.gitlab)
 
